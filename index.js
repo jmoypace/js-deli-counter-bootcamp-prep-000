@@ -24,7 +24,7 @@ function currentLine(katzDeliLine){
     let counter=1;
     for(let i=0;i<katzDeliLine.length;i++){
       counter=counter +i;
-      whosOnLine+=whosOnLine+counter+"."+katzDeliLine[i]
+      whosOnLine+=counter+"."+katzDeliLine[i]
     }
     return whosOnLine;
   }
