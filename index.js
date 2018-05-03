@@ -1,6 +1,7 @@
- var katzDeli = [];
-function takeANumber(katzDeliLine,name){
  
+function takeANumber(katzDeliLine,name){
+ var katzDeli = [];
+ katzDeli.push(name)
   //var position;
-  katzDeliLine.push(name)
+  //katzDeliLine.push(name)
 }
