@@ -20,6 +20,11 @@ function currentLine(katzDeliLine){
   return `The line is currently empty.` 
   }
   else {
-    return `The line is currently: ${katzDeliLine}`
+    var whosOnLine='The line is currently: ';
+    let counter=1;
+    for(let i=0;i<katzDeliLine.length;i++){
+      counter=counter +i;
+      whosOnLine+counter+"."+katzDeliLine[i]
+    }
   }
 }
