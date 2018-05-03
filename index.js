@@ -28,7 +28,7 @@ function currentLine(katzDeliLine){
       whosOnLine+=counter+". "+katzDeliLine[i]+sym
        
      }else 
-     
+      whosOnLine+=counter+". "+katzDeliLine[i]
       counter++;
      }
     }
