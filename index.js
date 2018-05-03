@@ -21,10 +21,10 @@ function currentLine(katzDeliLine){
   }
   else {
     var whosOnLine='The line is currently: ';
-    let counter=1;
-    for(let i=0;i<katzDeliLine.length;i++){
-      counter=counter +i;
-      whosOnLine+=counter+". "+katzDeliLine[i]
+    
+    for(let i=0;i<katzDeliLine.length;++i){
+     
+      whosOnLine+=i+". "+katzDeliLine[i]
     }
     return whosOnLine;
   }
