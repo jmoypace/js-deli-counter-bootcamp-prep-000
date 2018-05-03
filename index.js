@@ -1,13 +1,13 @@
  
-
+var katzDeliLine = [];
 
 function takeANumber(katzDeliLine,name){
- katzDeliLine.push(name)
- for(let i=0;i<katzDeliLine.length;i++){
-   
+  katzDeliLine.push(name)
+  
+  return `Welcome, ${name}. You are number ${katzDeliLine.indexOf(name)}in line`
  
-  
-  
-}
+
+
+
 
 }
