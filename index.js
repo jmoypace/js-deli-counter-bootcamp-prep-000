@@ -8,6 +8,6 @@ function takeANumber(katzDeliLine,name){
 }
 function nowServing(){
   if(katzDeliLine.length=0){
-    return ``
+    return "no one is on line"
   }
 }
